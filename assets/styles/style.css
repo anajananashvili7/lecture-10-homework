@@ -1,0 +1,228 @@
+@font-face {
+    font-family: "Tinos", serif;
+    src: url(../fonts/Tinos-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Playfair Display", serif;
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+.container {
+    margin :50px auto;
+    max-width: 1800px;
+    width:90%
+}
+
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Tinos", serif;
+    font-size: 18px;
+    padding: 16px 30px;
+    letter-spacing: 5px;
+
+}
+
+header {
+    
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+
+
+header nav ul {
+    display: flex;
+
+}
+
+header nav ul li {
+    padding:14px 18px;
+}
+
+header .logo {
+    padding:14px 18px;
+}
+
+header .logo:hover {
+    background-color: lightgrey;
+}
+
+
+header nav ul li:hover {
+    background-color: lightgrey;
+    
+}
+
+header a {
+    text-decoration: none;
+    color:black;
+}
+
+.humburger-image img {
+    width:100%;
+}
+
+.humburger-image {
+    position: relative;
+}
+
+h1 {
+    letter-spacing: 5px;
+    font-size: 36px;
+    line-height: 1.5;
+    color:rgb(93, 91, 91);
+    position: absolute;
+   bottom:15px;
+    font-family: "Playfair Display", serif;
+
+}
+
+.section-one,
+.section-two {
+    display: flex;
+    gap:50px;
+    padding-top: 20px;
+ 
+  
+}
+
+.section-one div,
+.section-two div {
+    width:100%;
+}
+
+.section-one img,
+.section-two img {
+    width:100%;
+}
+
+.section-one h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    margin:52px 0;
+    font-size: 36px;
+    font-family: "Playfair Display", serif;
+}
+
+.section-one h5 {
+    letter-spacing: 5px;
+    text-align: center;
+    margin:10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.section-one p {
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: "Tinos", serif;
+   
+}
+
+.grey-color {
+    color: #757575;
+    padding-top: 10px;
+}
+
+.line {
+    border-bottom: 1px solid darkgrey;
+}
+
+.section-two h2 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    margin:50px 0;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+  
+}
+
+
+.section-two h4 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+.section-two p {
+    font-family: "Tinos", serif;
+    color: #757575;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    
+}
+
+.contact-section h2 {
+    letter-spacing: 5px;
+    font-family: "Playfair Display", serif;
+    margin: 10px 0;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.contact-section .firstp,
+.contact-section .secondp
+ {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.contact-section .secondp {
+    font-weight: bolder;
+    color: #607d8b;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "Tinos", serif;
+    padding: 20px 0;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.first-input-one {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.first-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+input {
+   height: 40px;
+}
+
+.last-button  {
+    color: #000;
+    background-color: #f1f1f1;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    text-transform: uppercase;
+    
+}
+
+
